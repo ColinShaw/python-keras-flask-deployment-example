@@ -8,7 +8,3 @@ model = Model()
 def predict():
     return model.predict()
 
-@app.route('/train', methods=['POST'])
-def train():
-    return model.train()
-
